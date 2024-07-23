@@ -10,10 +10,11 @@ sum(10,20)
 
 # Polymorphism with inheritance:
 
-''' Polymorphism lets us define methods in the child class That have the same name as The meThods in the parenT class
-. In inheritance, the child class inheriTs the methods from The parent class . however , it is possible
-to modify a meThod in a child class That iT has inheriTed from The parenT clas. this is particularly useful
-in cases where the method inherited from parent class doesnt quite fit the child class'''
+''' Polymorphism lets us define methods in the child class that have the same name as the methods in the parent class.
+In inheritance, the child class inherits the methods from the parent class. However, it is possible to modify a method
+in a child class that it has inherited from the parent class. This is particularly useful in cases where the method inherited
+from the parent class doesn't quite fit the child class. In such cases, we re-implement the method in the child class. 
+This process of re-implementing a method in the child class is known as Method Overriding.'''
 
 
 class Bird:
